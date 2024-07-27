@@ -1,5 +1,4 @@
 from main import MENU,resources
-
 player = True
 while player:
     def printResource():
@@ -64,7 +63,4 @@ while player:
             else:
                 print('money incomplete heres your refund')
                 player = False
-
-
     printResource()
-    
